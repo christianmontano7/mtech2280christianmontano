@@ -1,0 +1,80 @@
+void setup() {
+ 
+  size (500,500);
+  
+  background (255);
+  
+  strokeWeight(2) ;
+  
+}
+
+
+void draw () {
+ 
+}
+
+
+void mouseDragged() {
+  
+  line(mouseX,mouseY, pmouseX,pmouseY);
+  
+  println (mouseX,mouseY);
+
+}
+  
+void keyPressed () {
+  
+  println(key);
+ 
+  if(key == 'a') {
+    
+  strokeWeight (4) ;
+  
+  }
+  if(key == 's') {
+    strokeWeight (10) ;
+    
+  }
+  
+  if(key == 'd') {
+    strokeWeight (2) ;
+    
+  }
+  
+  if(key == 'q') {
+    stroke (123,17,100) ;
+    
+  }
+  
+  if(key == 'w') {
+    stroke (255,17,0) ;
+    
+  }
+  if(key == 'e') {
+    stroke (255) ;
+    
+  }
+  
+   if(key == 'r') {
+    stroke (13,140,70) ;
+    
+  }
+  
+  if(key == 'z') {
+    ellipse(mouseX,mouseY,50,50);
+    
+  }
+    
+  if(key == 'x') {
+    rect(mouseX,mouseY,50,50);
+    
+    
+
+    
+  }
+  
+  
+  
+  
+    
+}
