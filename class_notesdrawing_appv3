@@ -1,4 +1,4 @@
-void setup() {
+oid setup() {
  
   size (500,500);
   
@@ -55,7 +55,17 @@ void keyPressed () {
     
   }
   
-   if(key == 'r') {
+    float x = random(255);
+    float y = random(255);
+    float z = random(255);
+    
+  
+  if(key == 'r') {
+    stroke (x,y,z);
+    
+  }
+  
+   if(key == 'u') {
     stroke (13,140,70) ;
     
   }
@@ -68,11 +78,19 @@ void keyPressed () {
   if(key == 'x') {
     rect(mouseX,mouseY,50,50);
     
+  }
     
+   if(key == 't') {
 
+    triangle(mouseX, mouseY, mouseX -40 , mouseY +40, mouseX+ 90, mouseY +104);
+    
+  } 
+  
+  
+  if(key == 'y') {
+    triangle(30, 75, 60, 20, 90, 75);
     
   }
-  
   
   
   
