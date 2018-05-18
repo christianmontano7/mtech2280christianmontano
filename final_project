@@ -1,0 +1,12 @@
+For my project I made a butter robot. I took what we learned with programming a robot arm and I had it pick up a butter knife,
+pick up some butter, and then move over and spread the butter on some toast.
+While that was going on I had arduino send processing several serial.write commmands which triggered an mp3 file that said 
+buttering activated,buttering in process etc.
+
+While working on this project I learned a lot about programming servo motors. I also began to understand more on
+serial communication between programs. There was a lot of troubleshooting involved and it was a great learning experience.
+I would not change my approach on the project. It was a pretty straightforward concept that I didn't change at all. 
+I mostly just had to work out some minor bugs throughout the process. 
+
+My video can be viewed here https://youtu.be/-Avhk7w4Cig
+
